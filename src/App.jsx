@@ -13,7 +13,7 @@ const projects = [
     description: 'A machine-learning web application that predicts property prices from property features, using a Python model and a React interface.',
     technologies: ['Python', 'Flask', 'React', 'Scikit-learn'],
     image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1000&q=85',
-    link: 'https://github.com/Frank-Muzi/house-price-predictor-ai-project',
+    link: 'https://house-price-predictor-ai-project.vercel.app/',
   },
   {
     title: 'LaMilage Cosmetics',
@@ -21,7 +21,7 @@ const projects = [
     description: 'A responsive online cosmetics store with product browsing, account authentication, shopping cart functionality and order management.',
     technologies: ['React', 'JavaScript', 'Supabase', 'CSS'],
     image: 'https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=1000&q=85',
-    link: 'https://github.com/Frank-Muzi/01---LaMilage_Cosmetics',
+    link: 'https://01-la-milage-cosmetics.vercel.app/',
   },
   {
     title: 'FarmBracket',
@@ -41,10 +41,10 @@ const services = [
 ]
 
 const skillGroups = [
-  { title: 'Programming', skills: ['Python', 'JavaScript', 'Java', 'Dart'] },
-  { title: 'Web & Frameworks', skills: ['HTML5', 'CSS3', 'React', 'React Native', 'Flask', 'Flutter'] },
-  { title: 'Platforms & Tools', skills: ['Git', 'GitHub', 'Supabase', 'Streamlit', 'Microsoft 365'] },
-  { title: 'Technical interests', skills: ['Cybersecurity', 'Networking', 'Machine Learning', 'Security Operations'] },
+  { title: 'Programming', skills: ['Python', 'JavaScript', 'Java', 'Android'] },
+  { title: 'Web & Frameworks', skills: ['HTML', 'CSS', 'React',] },
+  { title: 'Platforms & Tools', skills: ['VS Code', 'GitHub', 'Supabase', 'Streamlit', 'Microsoft 365', 'Packet Tracer', 'VMs'] },
+  { title: 'Technical interests', skills: ['Cybersecurity', 'Networking', 'Machine Learning', 'Web Development'] },
 ]
 
 const certifications = [
