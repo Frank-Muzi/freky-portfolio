@@ -133,6 +133,8 @@ export default function App() {
             <h3>Building technology.<br /><em>Learning every day.</em></h3>
             <p>I am a Bachelor of Information and Communication Technology (BICT) graduate from the University of Mpumalanga (Class of 2025), with a strong passion for technology, software development, Artificial Intelligence, and Cybersecurity.</p>
             <p>I have practical experience in designing, developing, testing, and deploying software solutions. My technical skill set includes Python, JavaScript, Java, HTML, CSS, React, Flask, and Flutter. I enjoy building applications that solve real-world problems while continuously exploring new technologies and improving my skills.</p>
+            <p>I have also worked on projects involving AI and Machine Learning, including a House Price Prediction system, which strengthened my understanding of data analysis, model development, and deploying intelligent applications.</p>
+            <p>Currently, I am expanding my knowledge and practical experience in Cybersecurity through professional training, with a particular interest in network security, threat detection, and security operations.</p>
             <p>I consider myself a curious, adaptable, and solution-oriented individual who enjoys learning, tackling challenges, and turning ideas into practical solutions. My goal is to grow as an IT professional and contribute to building innovative, secure, and impactful technology solutions.</p>
             
 
@@ -186,6 +188,8 @@ export default function App() {
             <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>COMPLETED</span><h3>CyberOps Associate </h3><p>NeoTerra IT Solution · Cybersecurity operations training</p></div><ShieldCheck className="cert-check" size={20} /></article>
             <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>COMPLETED</span><h3>First Year Experience Programme</h3><p>University of Mpumalanga · Tutor</p></div><ShieldCheck className="cert-check" size={20} /></article>
             <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>COMPLETED</span><h3>MAISH Participant</h3><p> UMP and TUT · Hackathon</p></div><ShieldCheck className="cert-check" size={20} /></article>
+            <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>COMPLETED</span><h3>Python Essentials 1</h3><p> Cisco · Python</p></div><ShieldCheck className="cert-check" size={20} /></article>
+            <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>COMPLETED</span><h3>Python Essentials 2</h3><p> Cisco · Python</p></div><ShieldCheck className="cert-check" size={20} /></article>
           </div>
         </div>
       </section>
