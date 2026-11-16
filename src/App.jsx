@@ -89,8 +89,8 @@ export default function App() {
           <span className="hello-label"><i /> Welcome To My Portfolio</span>
           <p className="hello">Hi, I'm</p>
           <h1>Muzi <span>Mbuyane</span></h1>
-          <div className="typing-title">Cybersecurity Specialist <b>&</b> Software Developer </div>
-          <p className="hero-text">A passionate Bachelor of ICT graduate focused on software development and cybersecurity, with an interest in building secure, efficient and meaningful digital solutions.</p>
+          <div className="typing-title">Cybersecurity Specialist<b>,</b>AI Engineer <b>&</b> A Software Developer </div>
+          <p className="hero-text">A passionate Bachelor of ICT graduate focused on software development, AI and cybersecurity, with an interest in building secure, automatic, efficient and meaningful digital solutions.</p>
           <div className="hero-buttons">
             <a className="btn btn-primary" href="#contact">Hire Me <ArrowUpRight size={16} /></a>
             <a className="btn btn-outline" href="#projects">View Projects <ChevronRight size={16} /></a>
@@ -170,10 +170,10 @@ export default function App() {
             <a className="project-image" href={project.link} target="_blank" rel="noreferrer">
               <img src={project.image} alt="" loading="lazy" /><span className="project-count">0{i + 1}</span><span className="project-open"><ExternalLink size={18} /></span>
             </a>
-            <div className="project-info"><span className="project-category">{project.category}</span><h3>{project.title}</h3><p>{project.description}</p><div className="tech-list">{project.technologies.map(tech => <span key={tech}>{tech}</span>)}</div><a className="project-source" href={project.link} target="_blank" rel="noreferrer">VIEW SOURCE CODE <ArrowUpRight size={14} /></a></div>
+            <div className="project-info"><span className="project-category">{project.category}</span><h3>{project.title}</h3><p>{project.description}</p><div className="tech-list">{project.technologies.map(tech => <span key={tech}>{tech}</span>)}</div><a className="project-source" href={project.link} target="_blank" rel="noreferrer">VIEW PROJECT <ArrowUpRight size={14} /></a></div>
           </article>)}
         </div>
-        <div className="center-link"><a className="btn btn-outline" href="https://github.com/Frank-Muzi" target="_blank" rel="noreferrer">View GitHub Profile <Github size={16} /></a></div>
+        <div className="center-link"><a className="btn btn-outline" href="https://github.com/Frank-Muzi" target="_blank" rel="noreferrer">View Source Code On GitHub <Github size={16} /></a></div>
       </section>
 
       <section className="section certifications-section" id="certifications">
@@ -181,7 +181,9 @@ export default function App() {
           <SectionTitle kicker="LEARNING & DEVELOPMENT" title="Certifications" subtitle="Courses and learning milestones that contribute to my development." />
           <div className="cert-grid">
             {certifications.map(cert => <article className="cert-card" key={cert.title}><div className="cert-icon"><Award size={25} /></div><div><span>{cert.year}</span><h3>{cert.title}</h3><p>{cert.issuer} · {cert.detail}</p></div><ShieldCheck className="cert-check" size={20} /></article>)}
-            <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>ONGOING DEVELOPMENT</span><h3>CyberOps Associate Training</h3><p>NeoTerra IT Solution · Cybersecurity operations training</p></div><ShieldCheck className="cert-check" size={20} /></article>
+            <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>COMPLETED</span><h3>CyberOps Associate Training</h3><p>NeoTerra IT Solution · Cybersecurity operations training</p></div><ShieldCheck className="cert-check" size={20} /></article>
+            <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>COMPLETED</span><h3>First Year Experience Programme</h3><p>University of Mpumalanga · Tutor</p></div><ShieldCheck className="cert-check" size={20} /></article>
+            <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>COMPLETED</span><h3>MAISH Participant</h3><p> UMP and TUT · Hackathon</p></div><ShieldCheck className="cert-check" size={20} /></article>
           </div>
         </div>
       </section>
