@@ -42,7 +42,7 @@ const services = [
 
 const skillGroups = [
   { title: 'Programming', skills: ['Python', 'JavaScript', 'Java', 'Android'] },
-  { title: 'Web & Frameworks', skills: ['HTML', 'CSS', 'React',] },
+  { title: 'Web & Frameworks', skills: ['HTML', 'CSS', 'React', 'Juypter Notebook'] },
   { title: 'Platforms & Tools', skills: ['VS Code', 'GitHub', 'Supabase', 'Streamlit', 'Microsoft 365', 'Packet Tracer', 'VMs'] },
   { title: 'Technical interests', skills: ['Cybersecurity', 'Networking', 'Machine Learning', 'Web Development'] },
 ]
@@ -131,9 +131,11 @@ export default function App() {
           <div className="about-copy">
             <span className="small-green">RECENT ICT GRADUATE</span>
             <h3>Building technology.<br /><em>Learning every day.</em></h3>
-            <p>I'm a Bachelor of ICT graduate from the University of Mpumalanga (Class of 2025), passionate about designing, developing, testing and deploying practical technology solutions.</p>
-            <p>My interests span software development and cybersecurity. I enjoy creating web applications, solving technical problems, understanding how networks operate, and learning how digital systems can be secured.</p>
-            <p>I'm currently a trainee at NeoTerra IT Solution, developing my skills towards a CyberOps Associate role.</p>
+            <p>I am a Bachelor of Information and Communication Technology (BICT) graduate from the University of Mpumalanga (Class of 2025), with a strong passion for technology, software development, Artificial Intelligence, and Cybersecurity.</p>
+            <p>I have practical experience in designing, developing, testing, and deploying software solutions. My technical skill set includes Python, JavaScript, Java, HTML, CSS, React, Flask, and Flutter. I enjoy building applications that solve real-world problems while continuously exploring new technologies and improving my skills.</p>
+            <p>I consider myself a curious, adaptable, and solution-oriented individual who enjoys learning, tackling challenges, and turning ideas into practical solutions. My goal is to grow as an IT professional and contribute to building innovative, secure, and impactful technology solutions.</p>
+            
+
             <div className="profile-facts">
               <div><span>NAME</span><strong>Muzi Mbuyane</strong></div>
               <div><span>LOCATION</span><strong>Mpumalanga, South Africa</strong></div>
@@ -181,7 +183,7 @@ export default function App() {
           <SectionTitle kicker="LEARNING & DEVELOPMENT" title="Certifications" subtitle="Courses and learning milestones that contribute to my development." />
           <div className="cert-grid">
             {certifications.map(cert => <article className="cert-card" key={cert.title}><div className="cert-icon"><Award size={25} /></div><div><span>{cert.year}</span><h3>{cert.title}</h3><p>{cert.issuer} · {cert.detail}</p></div><ShieldCheck className="cert-check" size={20} /></article>)}
-            <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>COMPLETED</span><h3>CyberOps Associate Training</h3><p>NeoTerra IT Solution · Cybersecurity operations training</p></div><ShieldCheck className="cert-check" size={20} /></article>
+            <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>COMPLETED</span><h3>CyberOps Associate </h3><p>NeoTerra IT Solution · Cybersecurity operations training</p></div><ShieldCheck className="cert-check" size={20} /></article>
             <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>COMPLETED</span><h3>First Year Experience Programme</h3><p>University of Mpumalanga · Tutor</p></div><ShieldCheck className="cert-check" size={20} /></article>
             <article className="cert-card cert-placeholder"><div className="cert-icon"><GraduationCap size={25} /></div><div><span>COMPLETED</span><h3>MAISH Participant</h3><p> UMP and TUT · Hackathon</p></div><ShieldCheck className="cert-check" size={20} /></article>
           </div>
